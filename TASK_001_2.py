@@ -39,7 +39,7 @@ while value > 28:
         first_player = False
         information(player1, x, counter1, value)
     else:
-        x = randint(1,29)
+        x = randint(1,28)
         counter2 += x
         value -= x
         first_player = True
