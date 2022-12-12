@@ -22,7 +22,7 @@ def information(name, x, counter, value):
 player1 = input("Введите имя игрока 1: ")
 player2 = 'Bot'
 value = int(input("Введите количество конфет на столе: "))
-first_player = randint(0,2) 
+first_player = randint(0,1) 
 if first_player:
     print(f"Первый ходит {player1}")
 else:
